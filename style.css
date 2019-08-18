@@ -1,0 +1,265 @@
+html, body {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    font-family: arial, sans-serif;
+}
+
+.container {
+    height: 100%;
+}
+
+.navbar {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    z-index: 999;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 15px 10px;
+    display: inline-block;
+    color: #494949;
+}
+
+.navbar a.active {
+    background-color: #166590;
+    color: #fff;
+    opacity: 0.8;
+}
+
+#page1 {
+    background-image: url(table-work.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    height: 100%;
+    background-image: url(logo-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    opacity: 0.9;
+}
+
+.container-contact-btn {
+    margin-top: -250px;
+    text-align: center;
+    
+}
+.contact-btn {
+    opacity: 0.8;
+    text-decoration: none;
+    background-color: #166590;
+    display: inline-block;
+    padding: 15px;
+    margin: auto;
+    font-weight: bold;
+    color: #fff;
+}
+.contact-btn:hover {
+    background-color: #166590;
+    color: #fff;
+    padding: 20px;
+}
+
+
+.selogan {
+    padding: 10px 0;
+    color: #494949;
+    background-color: #fff;
+    bottom: 0;
+    width: 100%;
+    text-align: center; 
+    position: absolute;
+    opacity: 0.9;
+}
+.selogan div {
+    float: left;
+    width: 33.33333333333333%;
+}
+
+.selogan div:hover {
+    color: #166590;
+}
+
+.selogan i {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.selogan .title {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 5px 20px;
+}
+
+.selogan .detail {
+    font-size: 14px;
+}
+
+
+
+#page2 {
+    background-color: #166590;
+    height: 100%;
+    
+    color: #f1f1f1;
+}
+
+.head {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 60px;
+    text-decoration: underline;
+}
+
+.portfolio .body-float {
+    margin-top: 35px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+}
+
+.portfolio .body-float img {
+    width: 300px;
+}
+
+.portfolio .body-float .text {
+    margin-top: 20px;
+}
+
+#page3 {
+    background-image: url(texting.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #166590;
+}
+
+#page3 .body {
+    font-size: 25px;
+    color: #494949;
+    margin: 140px auto 0;
+    width: 80%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+
+#page4 {
+    background-color: #fff;
+    height: 90%;
+}
+
+#page4 .body {
+    width: 400px;
+    margin: 30px auto 0;
+}
+input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input, textarea {
+    font: 15px arial, sans-serif;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #494949;
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    text-decoration: underline;
+}
+
+footer {
+    height: 10%;
+    background-color: #166590;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    color: #fff;
+    padding-top: 25px;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+
+    .navbar {
+        text-align: right;
+    }
+
+    .navbar a {
+        padding: 15px 20px;
+    }
+
+    .hero {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;  
+    }
+
+    .container-contact-btn {
+        margin-top: -200px;
+        text-align: center;
+    }
+
+    .portfolio .body-float {
+        margin-top: 35px;
+        text-align: center;
+        width: 50%;
+        float: left;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .portfolio .body-float img {
+        width: 600px;
+    }
+
+    #page3 .body {
+        font-size: 27px;
+        margin: 160px auto 0;
+        width: 60%;
+        text-align: justify;
+        padding: 30px;
+    }
+}
