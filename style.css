@@ -213,7 +213,7 @@ footer {
     text-align: center;
     display: inline-block;
     width: 100%;
-    margin: auto;
+    margin-top: 100%;
     box-sizing: border-box;
     color: #fff;
     padding-top: 25px;
