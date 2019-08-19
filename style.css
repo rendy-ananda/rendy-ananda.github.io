@@ -212,10 +212,10 @@ footer {
     text-align: center;
     display: inline-block;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 30px;
     box-sizing: border-box;
     color: #fff;
-    padding-top: 25px;
+    padding: 25px;
 }
 
 
