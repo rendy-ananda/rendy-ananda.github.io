@@ -165,7 +165,7 @@ html, body {
 
 #page4 {
     background-color: #fff;
-    height: 90%;
+    height: 100%;
 }
 
 #page4 .body {
@@ -208,7 +208,7 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
 }
 
 footer {
-    height: 10%;
+
     background-color: #166590;
     text-align: center;
     display: inline-block;
